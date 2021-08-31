@@ -1,0 +1,235 @@
+/*font-family: 'Poppins', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #F0FFF0;
+}
+.navbar-brand{
+    width: 20%;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #56548C;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.btn-sing{
+    padding: 0;
+    background-color: #21B573;
+    padding: 8px 20px;
+    border-radius: 30px;
+    color: white;
+}
+.btn-sing:hover{
+    color: white;
+    background-color: #107749;
+}
+.banner-contant{
+    padding: 80px 0;
+}
+.banner-contant h5{
+    color: #FD511A;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.banner-contant h1{
+    color: #000000;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 700;
+}
+.banner-contant span{
+    color: #21B573;
+}
+.banner-contant p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+.banner-contant a{
+    background-color:#21B573;
+    color: white;
+    padding: 0;
+    padding: 12px 26px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.banner-contant a:hover{
+    background-color: #107749;
+    color: white;
+}
+.feature-secton{
+    margin: 30px 0;
+}
+.feature-contant{
+    background-color:  #F8FFFB;
+    text-align: center;
+    padding: 50px 0;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: 0.4s all ease-in-out;
+}
+.feature-contant h2{
+    padding-top: 10px;
+    color: #413960;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+}
+.feature-contant p{
+    color: #585859;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+.feature-contant img{
+    width: 30%;
+}
+.feature-contant:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.course_header h1{
+    margin: 40px 0;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+    text-transform:uppercase ;
+}
+.course_contant{
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.course_contant h2{
+    margin: 0;
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #413960;
+}
+.course_contant h5{
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+.course_contant a{
+    background-color: #21B573;
+    padding: 5px 20px;
+    border-radius: 30px;
+    color: white;
+    margin: 0;
+}
+.course_contant a:hover{
+    color: white;
+    background-color: #107749;
+}
+.course_contant i{
+    margin-right: 5px;
+}
+.course_contant ul{
+    margin: 0;
+    padding: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.course_contant ul li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    list-style-type: none;
+}
+
+.about{
+    margin: 50px;
+}
+.about h1{
+    padding-bottom: 50px;
+}
+
+.about_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.about_img img{
+    text-align: center;
+}
+.about p{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footer{
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: #282531;
+}
+.footer p{
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+.footer h3{
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer ul{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.footer ul li{
+    list-style-type: none;
+   
+}
+.footer ul li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+}
+.footer-text h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 100px;
+    
+}  
