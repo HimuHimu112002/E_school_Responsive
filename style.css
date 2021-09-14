@@ -47,7 +47,7 @@ header{
 }
 .banner-contant h1{
     color: #000000;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 70px;
     font-weight: 700;
 }
@@ -85,6 +85,7 @@ header{
     border-radius: 10px;
     margin-bottom: 15px;
     transition: 0.4s all ease-in-out;
+    cursor: pointer;
 }
 .feature-contant h2{
     padding-top: 10px;
@@ -122,6 +123,7 @@ header{
     border-radius: 18px;
     padding: 15px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 .course_contant h2{
     margin: 0;
@@ -172,6 +174,7 @@ header{
 }
 .about h1{
     padding-bottom: 50px;
+    text-transform: uppercase;
 }
 
 .about_img{
@@ -187,14 +190,12 @@ header{
 .about p{
     padding-top: 30px;
     padding-left: 30px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 30px;
 }
 
 .footer{
-    margin-top: 100px;
+    margin-top: 80px;
     padding-top: 50px;
     background-color: #282531;
 }
@@ -208,8 +209,8 @@ header{
 .footer h3{
     color: white;
     font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 16px;
 }
 .footer ul{
     margin: 0;
@@ -223,7 +224,7 @@ header{
 .footer ul li a{
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 30px;
     color: white;
     text-decoration: none;
@@ -233,6 +234,5 @@ header{
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    padding-top: 100px;
-    
+    padding-top: 40px;   
 }  
